@@ -1,0 +1,114 @@
+@media (max-width: 992px) {
+  nav .container {
+    max-width: 100%;
+  }
+  nav li {
+    margin-top: 20px;
+  }
+  nav form {
+    display: block;
+  }
+  nav form p {
+    display: block;
+  }
+  nav form button {
+    width: 100%;
+  }
+  nav form .Notification,
+  nav form .massages {
+    margin-bottom: 2px;
+  }
+  .home,
+  .what-we-do {
+    height: fit-content;
+    overflow: hidden !important;
+  }
+  .home .container,
+  .Games .container,
+  .what-we-do .container {
+    display: block !important;
+    text-align: center;
+
+    width: 100% !important;
+  }
+  .home .container .left,
+  .home .container .right {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+  .home .container .left h1,
+  .what-we-do h2,
+  .team h2 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .home .container .left span {
+    text-align: center;
+  }
+
+  .home .container .left .select {
+    display: block !important;
+  }
+  .home .container .left button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .home .container .right .image {
+    width: 100% !important;
+  }
+  .title::before {
+    right: 65%;
+  }
+  .title::after {
+    left: 65%;
+  }
+  .Games .container .carousel-inner .image {
+    width: 50%;
+  }
+  .what-we-do .cards {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .what-we-do .cards .card {
+    width: 48%;
+    display: flex;
+  }
+  .what-we-do .cards .card-image {
+    width: 48%;
+  }
+  .logos .image {
+    width: 1.5%;
+  }
+  .logos .track-left,
+  .logos .track-right {
+    gap: 100px;
+  }
+  .logos .track-right {
+    animation-direction: reverse;
+  }
+  .team {
+    height: fit-content;
+  }
+  .team-info {
+    width: 100% !important;
+    gap: 2%;
+  }
+  .team .images {
+    width: 48% !important;
+    margin-bottom: 20px;
+  }
+  .contact {
+    height: fit-content;
+    
+  }
+  .contact .container {
+    display: block !important;
+    width: 100% !important;
+  }
+  .contact .left,
+  .contact .right {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+}
